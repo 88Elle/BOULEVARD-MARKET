@@ -194,6 +194,7 @@ main{
     line-height: 24px;
     color: #FFFFFF;
     font-family: 'MB';
+    
 }
 .box2-img::before{
     content: '';
@@ -413,7 +414,8 @@ footer ul{
         display: block;
     }
     .left-box{
-        justify-content: space-between;
+        justify-content:start;
+        gap: 15px;
     }
 }
 @media (max-width:530px){
@@ -448,6 +450,11 @@ footer ul{
     }
     .footer-box a{
         padding: 0 20px;
+    }
+}
+@media (max-width:320px){
+    .left-box{
+        flex-direction: column;
     }
 }
 
