@@ -54,10 +54,9 @@ header ul {
     color:#282828 ;
 }
 .right-box{
-    width: 540px;
     display: flex;
     justify-content: end;
-    align-items: center;
+    
 }
 .left-box ul a {
     font-size: 20px;
